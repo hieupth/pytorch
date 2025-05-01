@@ -32,8 +32,8 @@ if(NOT CUDA_FOUND)
     "PyTorch: CUDA cannot be found. Depending on whether you are building "
     "PyTorch or a PyTorch dependent library, the next warning / error will "
     "give you more info.")
-  set(CAFFE2_USE_CUDA OFF)
-  return()
+  # set(CAFFE2_USE_CUDA OFF)
+  # return()
 endif()
 
 # Enable CUDA language support
